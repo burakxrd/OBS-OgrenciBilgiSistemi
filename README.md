@@ -1,48 +1,53 @@
-📚 OBS - Öğrenci Bilgi Sistemi 🎓
-✨ Proje Hakkında
+# 📚 OBS - Öğrenci Bilgi Sistemi 🎓
+**✨ Proje Hakkında**
 Bu proje, temel öğrenci, ders, not ve kullanıcı yönetimi işlevlerini sunan bir masaüstü (Windows Forms) uygulamasıdır. Veritabanı etkileşimi için Entity Framework kullanılmıştır.
 
-🚀 Özellikler
-Öğrenci bilgilerini yönetme (Ekleme, Güncelleme, Silme).
+## 🚀 Özellikler
 
-Ders ve not girişi işlemleri.
+* **Öğrenci bilgilerini yönetme (Ekleme, Güncelleme, Silme).**
 
-Kullanıcı kimlik doğrulama ve rol tabanlı erişim.
+* **Ders ve not girişi işlemleri.**
 
-Sistemde yapılan önemli eylemlerin denetim kaydı.
+* **Kullanıcı kimlik doğrulama ve rol tabanlı erişim.**
 
-🛠️ Kullanılan Teknolojiler
-C#
+* **Sistemde yapılan önemli eylemlerin denetim kaydı.**
 
-Windows Forms
+## 🛠️ Kullanılan Teknolojiler
 
-Entity Framework 6 (Database First)
+* **C#**
 
-Microsoft SQL Server
+* **Windows Forms**
 
-📦 Kurulum ve Çalıştırma
-Veritabanı Kurulumu
-SQL Server'ınızda OBS_VeriTabani adında yeni bir veritabanı oluşturun.
+* **Entity Framework 6 (Database First)**
 
-Proje ana dizininde bulunan OBSScriptFile.sql dosyasını bu veritabanında çalıştırarak tabloları ve başlangıç verilerini oluşturun.
+* **Microsoft SQL Server**
 
-Uygulama Kurulumu
-Projeyi Visual Studio ile açın.
+## 📦 Kurulum ve Çalıştırma
 
-App.config dosyasındaki bağlantı dizesini kendi SQL Server kurulumunuza uygun şekilde güncelleyin.
+**Veritabanı Kurulumu**
+* **SQL Server'ınızda OBS_VeriTabani adında yeni bir veritabanı oluşturun.**
 
-OBS/App.config dosyasında <connectionStrings> bölümündeki OBSModel bağlantı dizesindeki (data source=YOUR_SERVER_NAME\SQLEXPRESS;...) YOUR_SERVER_NAME\SQLEXPRESS kısmını kendi sunucu adınızla değiştirmelisiniz. Örneğin: data source=.(localdb)\MSSQLLocalDB; veya data source=BILGISAYAR_ADINIZ\SQLEXPRESS;.
+* **Proje ana dizininde bulunan OBSScriptFile.sql dosyasını bu veritabanında çalıştırarak tabloları ve başlangıç verilerini oluşturun.**
 
-Projeyi derleyin ve çalıştırın.
+**Uygulama Kurulumu*
 
-Kullanıcı Rolleri Hakkında
-Uygulamada iki temel kullanıcı rolü bulunmaktadır:
+* **Projeyi Visual Studio ile açın.**
 
-Yönetici (Yonetici rolü): Sistemi yöneten, tüm işlemlere erişimi olan kişiler için atanmalıdır.
+* **App.config dosyasındaki bağlantı dizesini kendi SQL Server kurulumunuza uygun şekilde güncelleyin.**
 
-Öğrenci (Ogrenci rolü): Sisteme öğrenci olarak giriş yapacak kişiler için atanmalıdır.
+* **OBS/App.config dosyasında <connectionStrings> bölümündeki OBSModel bağlantı dizesindeki (data source=YOUR_SERVER_NAME\SQLEXPRESS;...) YOUR_SERVER_NAME\SQLEXPRESS kısmını kendi sunucu adınızla değiştirmelisiniz. Örneğin: data source=.(localdb)\MSSQLLocalDB; veya data source=BILGISAYAR_ADINIZ\SQLEXPRESS;.**
 
-📸 Ekran Görüntüleri
+* **Projeyi derleyin ve çalıştırın.**
+
+**Kullanıcı Rolleri Hakkında*
+
+* **Uygulamada iki temel kullanıcı rolü bulunmaktadır:*
+
+* **Yönetici (Yonetici rolü): Sistemi yöneten, tüm işlemlere erişimi olan kişiler için atanmalıdır.**
+
+* **Öğrenci (Ogrenci rolü): Sisteme öğrenci olarak giriş yapacak kişiler için atanmalıdır.**
+
+## 📸 Ekran Görüntüleri
 ![giris_ekrani](https://github.com/user-attachments/assets/1bd20609-6728-42f9-9c3b-450157769495)
 ![admin_paneli](https://github.com/user-attachments/assets/5f7f6f2b-4283-414e-a3b6-7eff52d673e9)
 ![not_giris_ekrani](https://github.com/user-attachments/assets/347ba1d3-d676-40cf-8f3a-242928834ded)
@@ -50,5 +55,5 @@ Yönetici (Yonetici rolü): Sistemi yöneten, tüm işlemlere erişimi olan kiş
 
 
 
-📜 Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
+## 📜 Lisans
+**Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.*
