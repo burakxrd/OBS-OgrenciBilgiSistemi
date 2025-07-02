@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6d788d3aa094d4abc20ca8d4bc02eff" Name="Diagram1">
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.Bolumler" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.DenetimKayitlari" Width="1.5" PointX="5.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.Kullanicilar" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.Ogrenciler" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.sysdiagrams" Width="1.5" PointX="9.625" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="OBS_VeriTabaniModel.FK__Ogrencile__Bolum__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="OBS_VeriTabaniModel.FK__DenetimKa__Kulla__5BE2A6F2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.Dersler" Width="1.5" PointX="9.625" PointY="3" />
+        <EntityTypeShape EntityType="OBS_VeriTabaniModel.Notlar" Width="1.5" PointX="7.625" PointY="0.5" />
+        <AssociationConnector Association="OBS_VeriTabaniModel.FK__Notlar__DersKodu__18EBB532" />
+        <AssociationConnector Association="OBS_VeriTabaniModel.FK__Notlar__OgrenciN__17F790F9" />
+        <AssociationConnector Association="OBS_VeriTabaniModel.FK__Dersler__BolumNo__19DFD96B" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
